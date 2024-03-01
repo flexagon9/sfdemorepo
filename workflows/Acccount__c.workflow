@@ -45,6 +45,11 @@
             <operation>notEqual</operation>
             <value>null</value>
         </criteriaItems>
+        <criteriaItems>
+            <field>Acccount__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
@@ -71,7 +76,7 @@
             <name>AccountNotificationAction2</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>false</active>
+        <active>true</active>
         <criteriaItems>
             <field>Acccount__c.Name</field>
             <operation>equals</operation>
