@@ -9733,6 +9733,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.ReturningCustomer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.SLAExpirationDate__c</field>
         <readable>true</readable>
     </fieldPermissions>

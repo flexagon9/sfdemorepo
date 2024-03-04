@@ -569,6 +569,14 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>ReturningCustomer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ReturningCustomer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>SLAExpirationDate__c</fullName>
         <externalId>false</externalId>
         <label>SLA Expiration Date</label>

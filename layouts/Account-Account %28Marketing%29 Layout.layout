@@ -35,6 +35,10 @@
                 <behavior>Edit</behavior>
                 <field>ExternalID_Acc__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ReturningCustomer__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

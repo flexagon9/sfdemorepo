@@ -106,11 +106,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ChangePasswordControllerTest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesLoginController</apexClass>
@@ -9729,6 +9729,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Rating</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.ReturningCustomer__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

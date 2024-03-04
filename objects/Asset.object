@@ -212,6 +212,7 @@
     </fields>
     <fields>
         <fullName>Price</fullName>
+        <description>Price</description>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
