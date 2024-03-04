@@ -6,8 +6,8 @@
         // Instantiate a new controller with all parameters in the page
         ChangePasswordController controller = new ChangePasswordController();
         controller.oldPassword = '123456';
-        controller.newPassword = 'qwerty1'; 
-        controller.verifyNewPassword = 'qwerty1';                
+        controller.newPassword = 'qwerty2'; 
+        controller.verifyNewPassword = 'qwerty2';                
         system.debug('adding a simple comment===');
         System.assertEquals(controller.changePassword(),null);                           
     }    
