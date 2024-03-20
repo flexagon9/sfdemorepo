@@ -13,7 +13,7 @@ public with sharing class LIFXController {
             HTTPResponse res = http.send(req);
 			return res.getBody();        	
         } catch(Exception ex){
-            return '{"error ": "' + ex.getMessage() + '"}';
+            return '{"error": "' + ex.getMessage() + '"}';
         }
     }
     
@@ -40,7 +40,7 @@ public with sharing class LIFXController {
             HTTPResponse res = http.send(req);
 			return res.getBody();        	
         } catch(Exception ex){
-            return '{"error ": "' + ex.getMessage() + '"}';
+            return '{"error": "' + ex.getMessage() + '"}';
         }
     }
         
